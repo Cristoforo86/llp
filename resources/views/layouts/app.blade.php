@@ -25,7 +25,7 @@
     <!-- <div id="app"> -->
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container m-0 pr-0" id="navbar-container">
-            <a class="pr-4 m-0 navbar-brand" id="app-name" href="{{ url('/') }}">
+            <a class="pr-4 m-0 navbar-brand" id="app-name" href="{{ url('/home') }}">
                 {{ config('app.name', 'Laravel') }} - the Language Learning Plattform
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
@@ -51,11 +51,11 @@
                         Spanish
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/spanish/vocabulary/list">Vocabulary List</a>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/spanish/vocabulary/trainer">Vocabulary Trainer</a>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/spanish/verbs/conjugator">Conjugator</a>
+                        <a class="dropdown-item" href="{{ url('/spanish/vocabulary/list') }}">Vocabulary List</a>
+                        <a class="dropdown-item" href="{{ url('/italian/vocabulary/trainer') }}">Vocabulary Trainer</a>
+                        <a class="dropdown-item" href="{{ url('/italian/verbs/conjugator') }}">Conjugator</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/spanish/grammar">Grammar</a>
+                        <a class="dropdown-item" href="{{ url('/italian/grammar/') }}">Grammar</a>
                     </div>
                 </div>
                 <div class="btn-group">

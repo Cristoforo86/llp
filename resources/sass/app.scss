@@ -1,0 +1,47 @@
+//
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+// @import url("../../node_modules/flag-icon-css/css/flag-icon.min.css");
+
+nav,
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(87, 87, 159, 1) 0%,
+        rgba(27, 161, 189, 1) 74%
+    );
+}
+
+a {
+    color: blanchedalmond;
+}
+// .flexbox {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+// }
+// .flexbox-item {
+//     justify-self: center;
+// }
+#navbarSupportedContent {
+    padding-left: 5rem;
+    padding-right: 1rem;
+    width: auto;
+    margin-right: -10rem;
+}
+.navbar-nav {
+    padding-left: 3rem;
+    padding-right: 5rem;
+    li {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+.navbar-btn {
+    margin-left: 4rem;
+    // padding: 1rem;
+}
+#app-name,
+#navbarDropdown {
+    color: blanchedalmond;
+}

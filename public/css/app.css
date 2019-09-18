@@ -1,0 +1,36 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css);nav,
+body {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #57579f 0%, #1ba1bd 74%);
+}
+
+a {
+  color: blanchedalmond;
+}
+
+#navbarSupportedContent {
+  padding-left: 5rem;
+  padding-right: 1rem;
+  width: auto;
+  margin-right: -10rem;
+}
+
+.navbar-nav {
+  padding-left: 3rem;
+  padding-right: 5rem;
+}
+
+.navbar-nav li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-btn {
+  margin-left: 4rem;
+}
+
+#app-name,
+#navbarDropdown {
+  color: blanchedalmond;
+}
+

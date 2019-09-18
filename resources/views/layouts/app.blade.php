@@ -39,11 +39,11 @@
                         Italian
                     </button>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/italian/vocabulary/list">Vocabulary List</a>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/italian/vocabulary/trainer">Vocabulary Trainer</a>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/italian/verbs/conjugator">Conjugator</a>
+                        <a class="dropdown-item" href="{{ url('/italian/vocabulary/list') }}">Vocabulary List</a>
+                        <a class="dropdown-item" href="{{ url('/italian/vocabulary/trainer') }}">Vocabulary Trainer</a>
+                        <a class="dropdown-item" href="{{ url('/italian/verbs/conjugator') }}">Conjugator</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="http://localhost/portfolio/language/public/italian/grammar">Grammar</a>
+                        <a class="dropdown-item" href="{{ url('/italian/grammar/') }}">Grammar</a>
                     </div>
                 </div>
                 <div class="btn-group">

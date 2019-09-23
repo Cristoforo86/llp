@@ -25,6 +25,8 @@ Route::get('/declensions', 'PagesController@getDeclensions');
 // ITALIAN
 Route::get('/italian/vocabulary', 'LanguageController@getVocabularyIT');
 Route::get('/italian/vocabulary/list', 'LanguageController@getVocabularyListIT');
+Route::get('/italian/vocabulary/list/a1', 'ItalianController@index');
+Route::get('/italian/vocabulary/list/startWith', 'ItalianController@startWith');
 Route::get('/italian/vocabulary/trainer', 'LanguageController@getVocabularyTrainerIT');
 Route::get('/italian/verbs/conjugator', 'LanguageController@getConjugatorIT');
 Route::get('/italian/grammar/', 'LanguageController@getGrammarIT');

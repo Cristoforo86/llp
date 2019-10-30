@@ -11,9 +11,7 @@ class ItalianWordsA1Numbers extends Component {
     }
 
     async componentDidMount() {
-        const res = await axios.get(
-            "http://localhost/portfolio/language/public/italian/vocabulary/list/a1"
-        );
+        const res = await axios.get("italian/vocabulary/list/a1");
         this.setState({ words: res.data }, () => {
             console.log(this.state.words);
         });
